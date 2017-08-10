@@ -1,0 +1,64 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:layout_above="@+id/btnstart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="60sp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo1" />
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_above="@+id/btninfo"
+        android:layout_alignLeft="@+id/btninfo"
+        android:layout_alignStart="@+id/btninfo"
+        android:layout_marginBottom="2dp"
+        android:text="Mulai"
+        tools:ignore="RtlHardcoded" />
+
+
+    <Button
+        android:id="@+id/btninfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_above="@+id/btnexit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="2dp"
+        android:text="info" />
+
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignLeft="@+id/btninfo"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:text="exit"
+        tools:ignore="RtlHardcoded" />
+
+
+
+
+
+</LinearLayout>

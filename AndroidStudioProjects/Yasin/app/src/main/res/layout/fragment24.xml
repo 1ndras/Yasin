@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1">
+
+    <!--Ayat 47-->
+    <TextView
+        android:id="@+id/ayat47_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/ayat47"
+        android:textColor="#ffffff"
+        android:textSize="38dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/text47_2"
+        android:gravity="left"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Wa idzaa qiila lahum anfiquu mimmaa razaqakumullaahu, qaalal ladziina kafaruu lilladzina aamanuu, anuth-'imu mal lau yasyaa-ullaahu ath-'amahuu, in an tum illaa fii dhalaalim mubiin(in)"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="257dp" />
+
+
+    <TextView
+        android:id="@+id/text47_3"
+        android:gravity="left"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:text="47. Dan apabila dikatakakan kepada mereka: 'Nafkahkanlah sebahagian dari reski yang diberikan Allah kepadamu', maka orang-orang yang kafir itu berkata kepada orang-orang yang beriman: 'Apakah kami akan memberi makan kepada orang-orang yang jika Allah menghendaki tentulah Dia akan memberinya makan, tiadalah kamu melainkan dalam kesesatan yang nyata.'"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="397dp" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
